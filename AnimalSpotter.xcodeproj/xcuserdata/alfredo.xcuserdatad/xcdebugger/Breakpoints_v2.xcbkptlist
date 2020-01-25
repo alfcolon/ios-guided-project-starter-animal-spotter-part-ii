@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CCFB9E15-EE70-475A-8BA0-45F9CE419FE3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C604CE30-6CA3-421C-8D35-1D0C881634BE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AnimalSpotter/View Controllers/AnimalDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "getDetails()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C604CE30-6CA3-421C-8D35-1D0C881634BE - a7497c06e567733f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;AnimalSpotter.Animal, AnimalSpotter.NetworkError&gt;) -&gt; () in AnimalSpotter.AnimalDetailViewController.(getDetails in _77407BCE573EF109B13FBC2DE9F1D634)() -&gt; ()"
+                  moduleName = "AnimalSpotter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alfredo/Development/lambda/4.iOSNetworkingAndPersistence/3.APIAuthenticationwithAccountSignupandLogin/animal-spotter2/AnimalSpotter/AnimalSpotter/View%20Controllers/AnimalDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "322">
+               </Location>
+               <Location
+                  uuid = "C604CE30-6CA3-421C-8D35-1D0C881634BE - 39e1e0172b3b3d0b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Result&lt;AnimalSpotter.Animal, AnimalSpotter.NetworkError&gt;) -&gt; () in AnimalSpotter.AnimalDetailViewController.(getDetails in _77407BCE573EF109B13FBC2DE9F1D634)() -&gt; ()"
+                  moduleName = "AnimalSpotter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alfredo/Development/lambda/4.iOSNetworkingAndPersistence/3.APIAuthenticationwithAccountSignupandLogin/animal-spotter2/AnimalSpotter/AnimalSpotter/View%20Controllers/AnimalDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "38">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A797E657-8D7E-4B45-965F-D8005D35D9B5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AnimalSpotter/View Controllers/AnimalDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "updateViews(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42DBBE19-5ED3-4C43-A70B-3290BFDE7B6C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AnimalSpotter/Application/APIController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "fetchDetails(for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BACCA021-6C70-4939-AE13-C8B08F731E51"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AnimalSpotter/Application/APIController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
+            landmarkName = "fetchDetails(for:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BACCA021-6C70-4939-AE13-C8B08F731E51 - b9a9bc4b199f6073"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AnimalSpotter.APIController.fetchDetails(for: Swift.String, completion: (Swift.Result&lt;AnimalSpotter.Animal, AnimalSpotter.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AnimalSpotter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alfredo/Development/lambda/4.iOSNetworkingAndPersistence/3.APIAuthenticationwithAccountSignupandLogin/animal-spotter2/AnimalSpotter/AnimalSpotter/Application/APIController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "170"
+                  endingLineNumber = "170"
+                  offsetFromSymbolStart = "665">
+               </Location>
+               <Location
+                  uuid = "BACCA021-6C70-4939-AE13-C8B08F731E51 - b9a9bc4b199f6073"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AnimalSpotter.APIController.fetchDetails(for: Swift.String, completion: (Swift.Result&lt;AnimalSpotter.Animal, AnimalSpotter.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AnimalSpotter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alfredo/Development/lambda/4.iOSNetworkingAndPersistence/3.APIAuthenticationwithAccountSignupandLogin/animal-spotter2/AnimalSpotter/AnimalSpotter/Application/APIController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "170"
+                  endingLineNumber = "170"
+                  offsetFromSymbolStart = "1083">
+               </Location>
+               <Location
+                  uuid = "BACCA021-6C70-4939-AE13-C8B08F731E51 - b9a9bc4b199f6073"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AnimalSpotter.APIController.fetchDetails(for: Swift.String, completion: (Swift.Result&lt;AnimalSpotter.Animal, AnimalSpotter.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AnimalSpotter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alfredo/Development/lambda/4.iOSNetworkingAndPersistence/3.APIAuthenticationwithAccountSignupandLogin/animal-spotter2/AnimalSpotter/AnimalSpotter/Application/APIController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "170"
+                  endingLineNumber = "170"
+                  offsetFromSymbolStart = "2096">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

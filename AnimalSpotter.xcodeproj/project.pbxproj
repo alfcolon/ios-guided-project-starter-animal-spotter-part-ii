@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38472CBD23DBBA1F00ED7186 /* NewtorkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38472CBC23DBBA1F00ED7186 /* NewtorkError.swift */; };
+		38472CBF23DBCCF400ED7186 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38472CBE23DBCCF400ED7186 /* Animal.swift */; };
 		CEDCA57B22668AB2009EA535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCA57A22668AB2009EA535 /* AppDelegate.swift */; };
 		CEDCA58022668AB2009EA535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDCA57E22668AB2009EA535 /* Main.storyboard */; };
 		CEDCA58222668AB2009EA535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDCA58122668AB2009EA535 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38472CBC23DBBA1F00ED7186 /* NewtorkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewtorkError.swift; sourceTree = "<group>"; };
+		38472CBE23DBCCF400ED7186 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		CEDCA57722668AB2009EA535 /* AnimalSpotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalSpotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDCA57A22668AB2009EA535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEDCA57F22668AB2009EA535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -78,8 +82,10 @@
 		CEDCA5962266966C009EA535 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				38472CBE23DBCCF400ED7186 /* Animal.swift */,
 				CEFFEF6022B98E4600A646FB /* User.swift */,
 				CEFFEF6222B98E5200A646FB /* Bearer.swift */,
+				38472CBC23DBBA1F00ED7186 /* NewtorkError.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -175,9 +181,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEDCA59A226697BD009EA535 /* APIController.swift in Sources */,
+				38472CBD23DBBA1F00ED7186 /* NewtorkError.swift in Sources */,
 				CEDCA59122668D0F009EA535 /* LoginViewController.swift in Sources */,
 				CEFFEF6122B98E4600A646FB /* User.swift in Sources */,
 				CEFFEF6322B98E5200A646FB /* Bearer.swift in Sources */,
+				38472CBF23DBCCF400ED7186 /* Animal.swift in Sources */,
 				CEDCA57B22668AB2009EA535 /* AppDelegate.swift in Sources */,
 				CEDCA58F22668BCF009EA535 /* AnimalsTableViewController.swift in Sources */,
 				CEFFEF6522B99AE000A646FB /* AnimalDetailViewController.swift in Sources */,

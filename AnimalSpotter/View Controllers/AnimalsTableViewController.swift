@@ -12,7 +12,11 @@ class AnimalsTableViewController: UITableViewController {
     
     // MARK: - Properties
     
-    private var animalNames: [String] = []
+    private var animalNames: [String] = [] {
+        didSet {
+            self.tableView.reloadData()
+        }
+    }
     let apiController = APIController()
     
     // MARK: - View Lifecycle
@@ -48,16 +52,34 @@ class AnimalsTableViewController: UITableViewController {
     // MARK: - Actions
     @IBAction func getAnimals(_ sender: UIBarButtonItem) {
         // fetch all animals from API
+        apiController.fetchAllAnimalNames { result in
+            if let names = try? result.get() {
+                DispatchQueue.main.async {
+                    self.animalNames = names
+                    
+                }
+            }
+        }
     }
     
     // MARK: - Navigation
     
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "LoginViewModalSegue" {
+        switch segue.identifier{
+        case "LoginViewModalSegue":
             if let loginVC = segue.destination as? LoginViewController {
                 loginVC.apiController = apiController
             }
+        case "ShowAnimalDetailSegue":
+            if let detailVC = segue.destination as? AnimalDetailViewController {
+                if let indexPath = tableView.indexPathForSelectedRow {
+                    detailVC.animalName = animalNames[indexPath.row]
+                    detailVC.apiController = apiController
+                }
+            }
+        default:
+            break
         }
     }
 }
